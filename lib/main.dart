@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:section_5_http/01_http_get.dart';
+import 'package:section_5_http/03_http_put/03_http_put_patch.dart';
 
 void main() {
   runApp(HttpReq());
@@ -11,7 +11,7 @@ class HttpReq extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HttpGet(),
+      home: HTTP_put_patch(),
     );
   }
 }
